@@ -15,7 +15,7 @@
 .details-box-header .switch {
     width: 80px;
     height: 32px;
-    background-color: #2fa5ed;
+    background-color: var(--blue);
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -27,7 +27,7 @@
   .switch .switch-toggle {
     width: 50%;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 4px;
     transition: all 0.3s;
   }
@@ -101,7 +101,7 @@
   
 /* details city*/
 .weather-details-container .details .city-name {
-    color: #2FA5ED;
+    color: var(--blue);
   }
   
   .weather-details-container .details .icon-and-temp {
@@ -110,7 +110,7 @@
   }
   
   .icon-and-temp h1 {
-    color: #2FA5ED;
+    color: var(--blue);
     font-size: 56px;
   }
   
@@ -120,7 +120,7 @@
   
   /* metrices children */
   .weather-details-container .metrices h4 {
-    color: #2FA5ED;
+    color: var(--blue);
     margin-left: 4px;
     margin-bottom: 25px;
   }
@@ -142,7 +142,7 @@
   }
   
   .key .value {
-    color: #2FA5ED;
+    color: var(--blue);
   }
   
   .key span {
@@ -151,7 +151,7 @@
   }
   
   .value span {
-    color: #2FA5ED;
+    color: var(--blue);
   }
   
   /* extended-forecasts */
@@ -169,8 +169,8 @@
     width: calc(20% - 10px);
     height: 120px;
     border-radius: 4px;
-    background-color: #2fa5ed;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--white);
     margin-right: 10px;
     padding: 10px;
     display: flex;
